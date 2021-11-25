@@ -1,0 +1,40 @@
+.itemContainer {
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(161, 161, 161);
+  max-width: 600px;
+  display: block;
+  text-align: center;
+}
+
+.image {
+  margin-top: 50px;
+  margin-left: 10px;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.polaroid {
+  width: 450px;
+  height: 500px;
+  position: relative;
+}
+
+.klammer {
+  position: absolute;
+  width: 30px;
+  height: 100px;
+  margin-left: -100px;
+  margin-top: -50px;
+}
