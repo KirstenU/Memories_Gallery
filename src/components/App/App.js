@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "../Header/Header.js";
 import GalleryItem from "../GalleryItem/GalleryItem.js";
 import { data, frameData } from "../Data/galleryEntries.js";
-import "../FunctionClick.js";
+import Buttons from "../Slideshow/Buttons.js";
 
 export default function Memories() {
   return (
@@ -15,8 +15,7 @@ export default function Memories() {
           polaroidData={frameData[1]}
         />
       ))}
+      <Buttons itemData={data} />
     </div>
   );
 }
-
-// klammerData={frameData[0]}

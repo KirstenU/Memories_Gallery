@@ -3,7 +3,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  box-shadow: 5px 5px 15px rgba(161, 161, 161);
   max-width: 600px;
   display: block;
   text-align: center;
@@ -37,4 +36,8 @@ p {
   height: 100px;
   margin-left: -100px;
   margin-top: -50px;
+}
+
+.popup {
+  z-index: 1;
 }
